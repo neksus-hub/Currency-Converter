@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.converter-wrapper {
+  display: flex;
+  margin: auto;
+  min-width: 600px;
+  max-width: 700px;
+  background-color: orange;
+  padding: 15px;
+  flex-direction: column;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+
+.dollar-rubles {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 30px;
+  width: 100%;
+}
+
+.rubles-dollar {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.dollar-input-group-first,
+.rubles-input-group-first,
+.dollar-input-group-second,
+.rubles-input-group-second {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+}
+
+.dollar-rubles-title {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+.dollar-rubles-converter {
+  display: block;
+}

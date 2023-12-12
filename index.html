@@ -3,7 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="data:;base64,=" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="converter-wrapper">
+      <h3 class="dollar-rubles-title">Конвертировать из долларов в рубли</h3>
+      <div class="dollar-rubles">
+        <div class="dollar-input-group-first">
+          <input type="text" class="dollar-input-first" />
+          <span class="dollar-span-first">Доллар USA</span>
+        </div>
+        <div class="rubles-input-group-first">
+          <input type="text" class="rubles-input-first" />
+          <span class="rubles-span-first">Российский Рубль</span>
+        </div>
+        <button class="dollar-rubles-converter">Конвертировать</button>
+      </div>
+      <h3 class="dollar-rubles-title">Конвертировать из рублей в доллары</h3>
+      <div class="rubles-dollar">
+        <div class="dollar-input-group-second">
+          <input type="text" class="rubles-input-second" />
+          <span class="rubles-span-second">Российский Рубль</span>
+        </div>
+        <div class="rubles-input-group-second">
+          <input type="text" class="dollar-input-second" />
+          <span class="dollar-span-second">Доллар USA</span>
+        </div>
+        <button class="rubles-dollar-converter">Конвертировать</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>
